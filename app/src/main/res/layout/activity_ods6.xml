@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#27BEE5"
+    tools:context=".ods6">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="266dp"
+        android:layout_height="229dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041"
+        app:srcCompat="@drawable/ods6" />
+
+    <TextView
+        android:id="@+id/Texto"
+        android:layout_width="345dp"
+        android:layout_height="304dp"
+        android:backgroundTint="#FEFEFE"
+        android:text="Assegurar a disponibilidade e gestão sustentável da água e saneamento para todas e todos Conseguir o acesso universal e equitativo à água potável a um preço acessível para todos. Alcançar o acesso equitativo a serviços de saneamento e higiene adequados para todos e pôr fim à defecação ao ar livre."
+        android:textColor="#FEFEFE"
+        android:textColorLink="#FEFEFE"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
+
+    <Button
+        android:id="@+id/BtnVoltar"
+        android:layout_width="111dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#22698F"
+        android:text="Voltar"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.886" />
+</androidx.constraintlayout.widget.ConstraintLayout>
