@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,6 +12,15 @@ public class MainActivity extends AppCompatActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
+
+    ImageButton ODS13 = findViewById(R.id.btnODS13);
+    ODS13.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View view) {
+        Intent ODS13 = new Intent(getApplicationContext(), ODS13.class);
+        startActivity(ODS13);
+      }
+    });
 
     ImageButton ODS15 = findViewById(R.id.btnODS15);
     ODS15.setOnClickListener(new View.OnClickListener() {
