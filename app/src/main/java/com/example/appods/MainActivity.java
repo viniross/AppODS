@@ -13,6 +13,15 @@ public class MainActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
+    ImageButton ods10Button = findViewById(R.id.btnODS10);
+    ods10Button.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View v) {
+        Intent intent = new Intent(MainActivity.this, ODS10_Activity.class);
+        startActivity(intent);
+      }
+    });
+
     ImageButton imgBtnODS11 = findViewById(R.id.btnODS11);
     imgBtnODS11.setOnClickListener(new View.OnClickListener() {
       @Override
