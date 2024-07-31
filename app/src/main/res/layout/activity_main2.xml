@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E91E63"
+    android:backgroundTint="#DDA63A"
+    android:foregroundTint="#3553C1"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="381dp"
+        android:layout_height="520dp"
+        android:text="ODS 2: Fome Zero e Agricultura Sustentável&#xA;&#xA;Objetivo:&#xA;Acabar com a fome, alcançar a segurança alimentar, melhorar a nutrição e promover a agricultura sustentável.&#xA;&#xA;Metas Principais:&#xA;&#xA;Erradicar a Fome: Garantir acesso a alimentos suficientes e nutritivos para todos.&#xA;Acabar com a Desnutrição: Focar em crianças, adolescentes, mulheres grávidas e idosos.&#xA;Aumentar a Produtividade Agrícola: Promover práticas agrícolas sustentáveis e apoiar pequenos produtores.&#xA;Sistemas Sustentáveis: Implementar práticas agrícolas resilientes que protejam os ecossistemas."
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="125dp"
+        android:layout_height="129dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014"
+        app:srcCompat="@drawable/estrategia_ods_fome_zero" />
+
+    <Button
+        android:id="@+id/btnODS2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:foregroundTint="#BF5050"
+        android:text="Voltar ao início"
+        android:textColor="#000000"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:cornerRadius="50px"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:rippleColor="#912828" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

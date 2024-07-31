@@ -1,4 +1,4 @@
-// MainActivity.java
+// MainActivity2.java
 package com.example.appods;
 
 import android.content.Intent;
@@ -7,20 +7,18 @@ import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.appods.R;
-
-public class MainActivity extends AppCompatActivity {
+public class MainActivity2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main2);
 
-        Button buttonGoToSecondActivity = findViewById(R.id.btnODS2);
-        buttonGoToSecondActivity.setOnClickListener(new View.OnClickListener() {
+        Button buttonGoToMainActivity = findViewById(R.id.btnODS2);
+        buttonGoToMainActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                Intent intent = new Intent(MainActivity2.this, MainActivity.class);
                 startActivity(intent);
             }
         });
