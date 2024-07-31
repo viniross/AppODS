@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppODS"
         tools:targetApi="31">
+
         <activity
             android:name=".ODS17"
         android:exported="false" />
@@ -27,6 +28,10 @@
         <activity
             android:name=".ODS13"
         android:exported="false" />
+
+        <activity
+            android:name=".ODS11"
+            android:exported="false" />
 
         <activity
             android:name=".MainActivity"
