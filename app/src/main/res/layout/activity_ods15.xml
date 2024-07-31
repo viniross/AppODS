@@ -22,6 +22,6 @@
         android:layout_height="60dp"
         android:backgroundTint="#06451A"
         android:text="Voltar"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="607dp" />
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="635dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
