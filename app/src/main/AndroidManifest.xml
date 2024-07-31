@@ -40,6 +40,12 @@
             android:name=".ods9"
             android:exported="false" />
         <activity
+            android:name=".ods6"
+            android:exported="false" />
+        <activity
+            android:name=".ods06"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
