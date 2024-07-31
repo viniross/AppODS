@@ -9,10 +9,10 @@
     tools:context=".ODS7">
 
     <Button
-        android:id="@+id/btnODS7"
+        android:id="@+id/btnODS8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ODS7"
+        android:text="ODS8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
