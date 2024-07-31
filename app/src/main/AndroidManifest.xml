@@ -49,6 +49,9 @@
             android:name=".ODS5"
             android:exported="false" />
         <activity
+            android:name=".ods4"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
