@@ -8,7 +8,7 @@
     tools:context=".ODS1">
 
     <TextView
-        android:id="@+id/titleODS1"
+        android:id="@+id/txtODS1"
         android:layout_width="380dp"
         android:layout_height="418dp"
         android:justificationMode="inter_word"
@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.952" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imgODS1"
         android:layout_width="385dp"
         android:layout_height="221dp"
         app:layout_constraintBottom_toBottomOf="parent"
