@@ -205,10 +205,11 @@
         android:scaleX="1.3"
         android:scaleY="1.3"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="@+id/guideline"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/sdg_2"
-        tools:layout_editor_absoluteX="155dp" />
+        app:srcCompat="@drawable/sdg_2" />
 
     <ImageButton
         android:id="@+id/btnODS5"
@@ -219,10 +220,12 @@
         android:scaleX="1.3"
         android:scaleY="1.3"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="@+id/btnODS6"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline"
-        app:layout_constraintVertical_bias="0.198"
-        app:srcCompat="@drawable/sdg_5"
-        tools:layout_editor_absoluteX="155dp" />
+        app:layout_constraintVertical_bias="0.197"
+        app:srcCompat="@drawable/sdg_5" />
 
     <ImageButton
         android:id="@+id/btnODS8"
@@ -233,10 +236,11 @@
         android:scaleX="1.3"
         android:scaleY="1.3"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/btnODS7"
         app:layout_constraintTop_toTopOf="@+id/guideline"
         app:layout_constraintVertical_bias="0.396"
-        app:srcCompat="@drawable/sdg_8"
-        tools:layout_editor_absoluteX="155dp" />
+        app:srcCompat="@drawable/sdg_8" />
 
     <ImageButton
         android:id="@+id/btnODS11"
@@ -247,10 +251,11 @@
         android:scaleX="1.3"
         android:scaleY="1.3"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="@+id/btnODS12"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="@+id/guideline"
         app:layout_constraintVertical_bias="0.594"
-        app:srcCompat="@drawable/sdg_11"
-        tools:layout_editor_absoluteX="155dp" />
+        app:srcCompat="@drawable/sdg_11" />
 
     <ImageButton
         android:id="@+id/btnODS14"
@@ -261,10 +266,11 @@
         android:scaleX="1.3"
         android:scaleY="1.3"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="@+id/guideline"
         app:layout_constraintVertical_bias="0.793"
-        app:srcCompat="@drawable/sdg_14"
-        tools:layout_editor_absoluteX="155dp" />
+        app:srcCompat="@drawable/sdg_14" />
 
     <ImageButton
         android:id="@+id/btnODS17"
@@ -275,10 +281,11 @@
         android:scaleX="1.3"
         android:scaleY="1.3"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/btnODS16"
         app:layout_constraintTop_toTopOf="@+id/guideline"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/sdg_17"
-        tools:layout_editor_absoluteX="155dp" />
+        app:srcCompat="@drawable/sdg_17" />
 
     <androidx.constraintlayout.helper.widget.Flow
         android:id="@+id/flow"
