@@ -20,6 +20,7 @@ public class ODS16 extends AppCompatActivity {
             public void onClick(View view) {
                 Intent Main = new Intent( getApplicationContext(), MainActivity.class);
                 startActivity(Main);
+
             }
         });
     }
