@@ -16,13 +16,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button ods7 = findViewById(R.id.btnODS7);
+        Button ods8 = findViewById(R.id.btnODS8);
 
-        ods7.setOnClickListener(new View.OnClickListener() {
+        ods8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent ods7 = new Intent(getApplicationContext(), ODS7.class);
-                startActivity(ods7);
+                Intent ods8 = new Intent(getApplicationContext(), ODS8.class);
+                startActivity(ods8);
             }
         });
 

@@ -16,6 +16,9 @@
             android:name=".ODS7"
             android:exported="false" />
         <activity
+            android:name=".ODS8"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true" >
             <intent-filter>
