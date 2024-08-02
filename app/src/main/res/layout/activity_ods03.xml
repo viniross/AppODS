@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4FA548"
+    android:backgroundTint="#4C9E38"
+    tools:context=".ODS03">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="333dp"
+        android:layout_height="374dp"
+        android:text="Objetivo de Desenvolvimento Sustentável 3, relativo à “Boa Saúde e Bem-Estar”, é um dos 17 Objetivos de Desenvolvimento Sustentável estabelecidos pelas Nações Unidas em 2015. A redação oficial é: “Garantir uma vida saudável e promover o bem-estar para todos, em todas as idades."
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.456" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="405dp"
+        android:layout_height="128dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/download"
+        tools:srcCompat="@drawable/oi" />
+
+    <Button
+        android:id="@+id/btnvoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#224719"
+        android:text="voltar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773" />
+</androidx.constraintlayout.widget.ConstraintLayout>
